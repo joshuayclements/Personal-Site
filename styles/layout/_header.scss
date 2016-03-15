@@ -1,4 +1,16 @@
 header{
-  max-height: 100px;
+  height: 100px;
   width: inherit;
+  border: 1px solid red;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  border: 1px solid red;
+}
+
+img{
+  max-height:100px;
+  border: 1px solid red;
 }
