@@ -6,9 +6,13 @@
 }
 
 .row {
-  margin-left: -1em;
-  margin-right: -1em;
+  margin: 0;
   @include cf;
+  border-bottom: 2px solid rgba(151, 151, 151, .1);
+
+  .header{
+    height: 100px;
+  }
 
 }
 

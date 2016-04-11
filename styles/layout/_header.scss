@@ -1,6 +1,9 @@
-header{
+.header{
   height: 100px;
-  width: inherit;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  align-content: center;
 }
 
 li {
