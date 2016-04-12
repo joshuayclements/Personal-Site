@@ -4,8 +4,19 @@ img{
 }
 
 .projectlogo{
+  max-width: 500px;
   max-height: 200px;
   margin-top: 100px;
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personallogo{
+  width: auto;
+  max-height: 65px;
+  margin-top: 15px;
 }
 
 .mainnav{
@@ -13,10 +24,18 @@ img{
 }
 
 .hero-image{
-  margin-top: 100px;
   border: none;
   margin-left: -1em;
   margin-right: -1em;
+}
+
+.hoverimage{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  z-index: 3;
+  display: none;
 }
 
 .logo{

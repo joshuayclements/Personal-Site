@@ -14,6 +14,10 @@
     height: 100px;
   }
 
+  .borderless{
+    border-bottom: none;
+  }
+
 }
 
 [class^="col-"] {
@@ -28,7 +32,6 @@
   div {
     text-align: $center;
     height: 3.125em;
-    background-color: #F0F0F0;
     padding: .75em 0;
   }
 }
