@@ -1,27 +1,14 @@
-img{
-  max-width: 100%;
-  height: auto;
-}
-
-.projectlogo{
-  max-width: 500px;
-  max-height: 200px;
-  margin-top: 100px;
-  z-index: 2;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .personallogo{
   width: auto;
   max-height: 65px;
   margin-top: 15px;
+  position: absolute;
 }
 
 .mainnav{
   text-align: right;
 }
+
 
 .hero-image{
   border: none;
@@ -29,13 +16,48 @@ img{
   margin-right: -1em;
 }
 
-.hoverimage{
+img{
+  max-width: 100%;
+  height: auto;
+  margin-left: -1;
+  margin-right: -1;
+}
+
+.projectpreview{
+  max-height: 1000px;
+  display: block;
   position: relative;
+  transition: opacity 0.5s;
+}
+
+.projectpreview:hover{
+   .projectlogo{
+     opacity: 0;
+   }
+}
+
+.projectlogo{
+  max-width: 500px;
+  max-height: 200px;
+  margin-top: 100px;
+  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  background-color: white;
+}
+
+.subpagelink{
+  position: absolute;
+  z-index: 2;
+}
+
+.hoverimage{
   width: 100%;
   height: auto;
   overflow: hidden;
-  z-index: 3;
-  display: none;
+  position: absolute;
+  z-index: 0;
 }
 
 .logo{
