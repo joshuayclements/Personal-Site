@@ -16,9 +16,13 @@
     margin-bottom: 0.5em;
     background-color: #66CC66;
     border-radius: 3px;
+    height: 40px;
+    width: 125px;
 
     &:hover {
-      background-color: #CACACA;
+      background-color: #ffffff;
+      border: 1px solid #66cc66;
+      color: #66cc66;
     }
 
     &:focus,
