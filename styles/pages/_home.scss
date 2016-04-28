@@ -23,6 +23,11 @@
   }
 }
 
+.per-state{
+  border-bottom: none;
+}
+
+
 
 .hero-image{
   border: none;
@@ -35,11 +40,14 @@ img{
   height: auto;
 }
 
+.portfolio-sec{
+
+}
+
 .projectpreview{
-  height: 100%;
+  height: inherit;
   display: block;
   position: relative;
-  transition: opacity 0.5s;
 }
 
 .projectpreview:hover{
@@ -57,11 +65,23 @@ img{
   margin-right: auto;
   position: absolute;
   background-color: white;
+
+  @media screen and (max-width: 780px){
+    display: none;
+  }
 }
 
 .subpagelink{
   position: absolute;
   z-index: 1;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .5);
+
+  p{
+  text-align: center;
+  }
 }
 
 
