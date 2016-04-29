@@ -6,7 +6,42 @@
   z-index: 5;
 }
 
-li {
-  list-style: none;
-  display: inline;
+.logohome{
+  padding: 0;
+}
+
+.personallogo{
+  width: auto;
+  max-height: 50px;
+  margin-top: 15px;
+
+}
+
+.mainnav{
+  text-align: right;
+  background: #ffffff;
+  padding: 0;
+
+  ul{
+    padding-top: 3em;
+
+    @media screen and (max-width: 779px){
+      padding-top: 1em;
+    }
+  }
+
+  li{
+    list-style: none;
+    display: inline;
+    padding: 0 1em;
+  }
+
+  a{
+    text-decoration: none;
+    color: #333333;
+  }
+
+  @media screen and (max-width: 779px){
+    text-align: center;
+}
 }
