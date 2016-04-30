@@ -11,9 +11,9 @@ button,
     text-decoration: none;
     color: #FFFFFF;
     font:inherit;
-    padding: 0.5em 1em;
-    margin: 2em 1em;
-    background-color: rgba( 0, 0, 0, .3);
+    padding: 0.6em 1em;
+    margin: 5em 1em 0 1em;
+    background-color: rgba( 255, 255, 255, .2);
     border-radius: 3px;
     height: 40px;
     width: 125px;
@@ -34,6 +34,7 @@ button,
     font-family: $sans-serif;
     color: #ffffff;
     background-color: #66CC66;
+    margin: 2em 1em;
 
     &:hover{
       color: #ffffff;
