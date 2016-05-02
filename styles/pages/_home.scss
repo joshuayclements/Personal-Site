@@ -8,13 +8,13 @@
   text-align: center;
 }
 
-
-
 .hero-image{
   border: none;
-  //margin-left: -1em;
-  //margin-right: -1em;
-  max-height: 1000px;
+}
+
+.logo{
+  height: 400px;
+  overflow-y: hidden;
 }
 
 img{
@@ -69,31 +69,12 @@ img{
   }
 }
 
-
-
-.logo{
-  height: 400px;
-  overflow-y: hidden;
-}
-
 .contact{
   margin-top: 4.5em;
 }
 
-.social{
-  margin-top: 2em;
-}
 
-.social-icon{
-  max-height: 40px;
-  max-width: 40px;
-  margin: 0 1em;
-}
 
-.footer{
-  text-align:center;
-  margin: 0;
-}
 
 #about{
   padding-top: 5em;
