@@ -2,15 +2,16 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .row {
   margin: 0;
   @include cf;
-  border-bottom: 2px solid rgba(151, 151, 151, .1);
 
   .header{
     height: 100px;
+    border-bottom: 2px solid rgba(151, 151, 151, 0.1);
   }
 
   .borderless{
