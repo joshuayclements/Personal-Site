@@ -33,7 +33,11 @@ img{
 
 .projectpreview:hover{
    .projectlogo{
-     display: none;
+     opacity: 0;
+   }
+
+   .subpagelink{
+     z-index: 5;
    }
 }
 
@@ -50,6 +54,8 @@ img{
   position: absolute;
   background-color: white;
   border-bottom: 2px solid rgba(151, 151, 151, 0.1);
+  opacity: 1;
+  transition: all 0.25s ease;
 
   @media screen and (max-width: 600px){
     display: none;
