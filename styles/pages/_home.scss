@@ -17,6 +17,10 @@
 .logo{
   height: 400px;
   overflow-y: hidden;
+
+  @media screen and (max-width: 600px){
+    height: 250px;
+  }
 }
 
 img{
@@ -29,17 +33,12 @@ img{
   display: block;
 }
 
-.projectlogo{}
-
 .projectpreview:hover{
    .projectlogo{
      opacity: 0;
+     z-index: 0;
    }
-
-   .subpagelink{
-     z-index: 5;
-   }
-}
+ }
 
 .project-desc{
   margin: 0;
@@ -55,7 +54,7 @@ img{
   background-color: white;
   border-bottom: 2px solid rgba(151, 151, 151, 0.1);
   opacity: 1;
-  transition: all 0.25s ease;
+  transition: all 0.5s ease;
 
   @media screen and (max-width: 600px){
     display: none;
@@ -85,6 +84,14 @@ img{
 
 #about{
   padding-top: 5em;
+
+  @media screen and (max-width: 779px){
+  padding-top: 7em;
+  }
+
+  @media screen and (max-width: 600px){
+  padding-top: 9em;
+  }
 }
 
 #contact-sec,
